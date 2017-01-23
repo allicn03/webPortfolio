@@ -24,10 +24,23 @@ $(document).ready(function(){
   	var comment = $('#message-box').val();
   	console.log(comment);
   	$('#visible-comment').html(comment);
-  	$('#message-box').hide();
+  	if(comment === "") {
+  		$("#message-box").css("border", "2px solid red");
+  	} else {
+  		$('#message-box').hide();
+  	};
   	$('#submit').hide();
   	$('#received').append("We have received your message!");
   	return false;
+  });
+  $('#message-box').on('keyup', function() {
+  	var charCount = $('#message-box').val().length;
+  	$('#char-count').html(charCount);
+  	if(charCount > 50) {
+  		$('#char-count').css("color", "red");
+		} else {
+		};
+
   });
 
 });
