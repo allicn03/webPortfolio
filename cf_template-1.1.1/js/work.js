@@ -1,0 +1,1 @@
+var works = ["img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg", "img/pupno1adj3.jpg"]
