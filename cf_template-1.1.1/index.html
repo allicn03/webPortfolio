@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+
+  <html lang="en">
+
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+      <title>Hello World!</title>
+
+      <!-- Bootstrap core CSS -->
+      <link  rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+      <!-- Custom styles for this template go here -->
+      <link rel="stylesheet" href="css/styles.css">
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      <!-- Can place script tags with JavaScript files here -->
+    
+    </head>
+
+
+    <body data-spy="scroll" data-target=".navbar">
+
+
+      <!--navbar starts here-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+        <!--Brand and toggle get grouped for better mobile display-->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button><!-- end collapsed menu button -->
+            <div class="projectName navbar-brand">
+              <a href="#">AN</a>
+            </div><!--/projectName-->
+          </div><!--/navbar-header-->
+
+          <!--Collect the nav links, forms, and other content for toggling-->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work<span class="carat"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#sketch">Sketch</a></li>
+                </ul><!--.dropdown-menu-->
+              </li><!--.dropdown-->
+              <li><a href="#faq">Faq</a></li>
+              <li><a href="#contactsct">Contact</a></li>
+            </ul><!--.nav navbar-nav navbar-right-->
+          </div><!--/.navbar-collapse collapse-->
+        </div><!--/.container-fluid nav-->
+      </nav> <!--/.navbar navbar-default--> 
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+
+
+    <!-- Bootstrap core JS -->
+
+     
+
+    <!-- Can place script tags with JavaScript files here -->
+
+    <!-- Carousel --><!--Carousel as child of body and sibling of nav-->
+      <section>
+        <div class="container home">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+        <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/typewriteradj2.jpg" alt="typewriter">
+                <div class="carousel-caption" id="typewriter">
+                Concise Copy
+                </div><!--/.carousel-caption-->
+              </div><!--/.item active-->
+              <div class="item">
+                <img src="img/deskadj2.jpg" alt="desk">
+                <div class="carousel-caption" id="desk">
+                User-friendly Web Design
+                </div><!--/.carousel-caption-->
+              </div><!--/.item-->
+              <div class="item">
+                <img src="img/computeradj2.jpg" alt="computer">
+                <div class="carousel-caption" id="computer">
+                <strong>Digital Dominance!</strong>
+                </div><!--/.carousel-caption-->
+              </div><!--/.item-->
+            </div><!--carousel-inner-->
+
+          <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!--/.carousel-slide-->
+
+        <!--Three columns of info-->
+          <div class="portfolio">
+            <div class="row">
+              <div class="col-md-4 col-xs-12">
+                <h2>Portfolio Concept</h2>
+                <p>A clean, minimalist, dynamic design that will showcase my technical and design skills.</p>
+                <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information!"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></button></p>
+              </div><!-- /col -->
+              <div class="col-md-4 col-xs-12">
+                <h2>Project Goals</h2>
+                <p>My goals are to finish one section of the course per day. I plan to study 4-8 hours per day. I hope to have advanced my technical and design skills through this project.</p>
+                <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information!"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></button></p>
+              </div><!-- /col -->
+              <div class="col-md-4 col-xs-12">
+                <h2>Course Goals</h2>
+                <p>My goals with this course are to find entry level developer work with a company, and advance my technical and design skills.</p>
+                <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information!"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></button></p>
+              </div><!-- /col -->
+            </div><!-- /row -->
+          </div><!--/.portfolio-->  
+          <!--<hr>-->
+        </div><!--/.container home-->
+      </section><!--end carousel home section-->
+
+<!-- Start About Me content -->
+      <section class="about">
+        <div class="container anchor" id="about"><!-- about me container -->
+          <h1>About Me</h1><!--id="h1about"-->
+        </div><!--/container anchor -->
+        <div class="container anchor">
+          <div class="col-md-4 col-xs-12">
+            <img src="img/pittsburgh2.jpg" alt="Pittsburgh" class="pittsburgh">
+          </div><!-- /image -->
+          <div class="about-column">
+            <div class="col-md-4 col-xs-12">
+              <div class="intro">
+                <h2>Introduction</h2>
+                <p>Hi! I'm Allison Neusch. A web developer with an eye for user-friendly design. I am working towards a Bachelor's Degree in Computer Science and have a background in art and digital media. I work, live, and learn in Pittsburgh, PA.</p>
+              </div><!--/.intro-->
+            </div><!-- /.col-md-4 .col-xs-12-->
+            <div class="col-md-4 col-xs-12">
+              <div class="skills">
+                <h2>My skills</h2>
+                <ul id="skill-list">
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>Photography</li>
+                </ul>
+              </div><!--/.skills-->
+            </div><!-- /.col-md-4 .col-xs-12-->
+          </div><!--/.about-column-->
+          <div class="col-md-12 col-xs-12">
+            <div class="main-text">
+              <h3>More About Me</h3>
+              <p>I love graphic design, photography and fashion. I love learning new languages of the human and computer kind. I enjoy running and spending time with my two dogs and three cats.
+              </p>
+              <a href="#" title="More information!" id="item1">Learn More!</a>
+            </div><!-- /main-text -->
+          </div><!--/.col-md-12 col-xs-12-->
+        </div><!-- /container column -->
+      </section><!--/.about-->
+
+<!--Start Work Content -->
+      <section>
+        <div class="container anchor" id="work"><!-- start container work -->
+          <div class="header">
+            <h1>Work</h1>
+          </div><!--/header-->
+          <div class="row top-buffer" id="work-example">
+          </div><!-- /row id=work (1)-->
+        </div><!-- /container work-->
+      </section><!--/.section work-pic-->
+
+<!-- start faq content -->
+
+      <section>
+        <div class="container anchor" id="faq"><!-- start container faq -->
+        <div class="col-md-12 col-xs-12">
+          <div class="header">
+            <h1>Faq</h1>
+          </div><!--/header-->
+        </div><!--/.col-md-12 .col-xs-12 -->
+        <div class="col-md-12 col-xs-12">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-question-sign"></span>  Why did you decide to become a web developer?</a>
+                </h4>
+              </div><!--panel-heading-->
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                I wanted to work on a variety of projects and not be stuck in one specific division of a company.  Through web development I learn about all types of industries and get to use my design and technical skills to help a variety of groups achieve their digital goals.
+                </div><!--panel-body-->
+              </div><!--panel-collapse collapse in-->
+            </div><!--panel panel-default-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-question-sign"></span>  What is your design process?</a>
+                </h4>
+              </div><!--panel-heading-->
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                I start with a framework based upon the client’s needs and then I code and redesign until it becomes a fresh, friendly, easy to use site!
+                </div><!--panel-body-->
+              </div><!--panel-collapse collapse-->
+            </div><!--panel panel-default-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-question-sign"></span>   Who are your clients?
+                  </a>
+                </h4>
+              </div><!--panel-heading-->
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                I am game to work with anyone!  Individuals, non-profits, or for profit companies.  
+                </div><!--/panel-body-->
+              </div><!--/panel-collapse collapse-->
+            </div><!--panel panel-default-->
+          </div><!--panel-group-->
+        </div><!-- /.col-md-12 .col-xs-12 -->
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <h2 class="learn-more">Learn More!</h2>
+          </div><!-- /.col-md-12 .col-xs-12-->
+          <div class="modal-button">
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">My CV</button>
+          </div><!--/.modal-button-->
+      <!-- large modal -->
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static"  data-keyboard="false">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" >&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">CV</h4>
+                </div>
+                <div class="modal-body">
+                  <embed id="cv" src="img/AllisonNeusch.pdf">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--/.row-->
+        </div><!-- /container anchor faq -->
+      </section><!--/section faq-->
+<!-- Start contact content -->
+    <div data-stellar-background-ratio="2">
+
+      <section>
+        <div class="container anchor" id="contactsct">
+          <div class="col-md-12 col-xs-12">
+            <h1>Contact Me</h1><!--id="h1about"-->
+          </div><!-- /.col-md-12 .col-xs-12 -->
+        </div><!--/container anchor -->
+          <div class="contact col-lg-4 col-md-4">
+            <h3><span class="glyphicon glyphicon-user"></span>  Let's Talk!</h3>
+            <h3><span class="glyphicon glyphicon-earphone"></span>    P: 412-424-9179</h3>
+            <h3><span class="glyphicon glyphicon-envelope"></span>    E: a.neusch@gmail.com</h3>
+            <!--<iframe width="300" height="225" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGUifg9ztNIgR5WLkHboz5jc&key=AIzaSyBGRmBXmyguLP3ElfAtui2lSSM6hWwP9XU" allowfullscreen></iframe>-->
+          <div id="map"></div>
+          </div><!-- /contact -->
+          <div class="col-lg-8 col-md-8">
+            <form>
+              <div class="form-group">
+                <label for="name">Name*</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name Here*" required="required" title="Enter your name here.  This field is required.">
+              </div><!--/.form-group-->
+              <div class="form-group">
+                <label for="e-address">Email*</label><br>
+                <input type="email" id="e-address" placeholder="Your Email Address Here*" required="required" title="Enter your e-mail address here.  This field is required."><br><br>
+                <label for="message-box">Your Message.</label>
+                <textarea placeholder="Your Message Here" style="resize:none" cols="40" rows="5" class="form-control" id="message-box"></textarea><br>
+                <p id="visible-comment"></p>
+                <p id="char-count"></p>
+                <button type="submit" class="btn btn-default" id="submit">Submit</button>
+                <p id="received"></p>
+              </div><!--/.form-group-->
+            </form>
+          </div><!--/.col-lg-8 col-md-8-->
+        </div><!--/.container anchor-->
+      </section>
+      <footer id="footer">
+        <div>
+          <p>&copy; Allison Neusch</p>
+        </div>
+        <div class="twitter">
+          <a href="https://twitter.com/allineusch" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @allineusch</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div><!--/.twitter-->
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="js/work.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGRmBXmyguLP3ElfAtui2lSSM6hWwP9XU&callback=initMap"
+      async defer></script>
+    </body>
+  </html>

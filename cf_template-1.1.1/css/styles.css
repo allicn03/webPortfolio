@@ -1,0 +1,214 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#000000, #000066, #0000ff, #d24dff, #ff8080, #ff3300, #ffff33); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#000000, #000066, #0000ff, #d24dff, #ff8080, #ff3300, #ffff33); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000000, #000066, #0000ff, #d24dff, #ff8080, #ff3300, #ffff33); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000000, #000066, #0000ff, #d24dff, #ff8080, #ff3300, #ffff33); /* Standard syntax (must be last) */
+  color: white;
+  position: relative;
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+}
+
+/*Navigation bar styles*/
+
+.navbar, .navbar-default {
+	background-color: #000;
+	margin-bottom: 0px;
+  border: 0px solid transparent;
+  border-radius: 0;
+}
+
+.navbar a:hover {
+	color: #ff0;
+	text-decoration: none;
+}
+
+.projectName {
+	color: #337ab7;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+}
+
+p {
+	text-align: left;
+}
+
+h2{
+	text-align: center;
+}
+
+/*Carousel Styles*/
+
+.carousel {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+/*Carousel caption styles*/
+
+#typewriter {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+
+#desk {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+
+#computer {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+
+.glyphicon:hover {
+	color: gray;
+}
+
+/*About styles*/
+
+.pittsburgh {
+	padding-top: 75px;
+}
+
+.intro {
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 75px;
+	padding-left: 30px;
+	text-align: center;
+}
+
+.skills {
+	margin-top: 75px;
+	padding-bottom: 35px;
+	background-color: #337ab7;
+	color: #fff;
+}
+
+.skills h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#skill-list {
+	text-align: left;
+	margin-left: 150px;
+}
+
+#item1 {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+/* Work styles */
+
+.top-buffer {
+	padding: 10px;
+}
+.work-img {
+	display: block; /*need to center the element with margin*/
+	margin: auto; /*center the image inside the column if it's smaller*/
+	max-width: 200px; /*needs to be set to the width of your image files if they are relatively small*/
+	position: relative; /*is needed for .info position: absolute to work*/
+}
+.info {
+	position: absolute; /*let's us move the text around and not worry about the image*/
+	top: 15%; /*position the text 15% from the top*/
+	left: 22%;
+	color: #fff;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	display: none;
+}
+.proj-title {
+	font-weight: 100;
+}
+
+/*faq styles*/
+
+.panel-body {
+	font-family: 'Nono Sans', Helvetica, Arial, Tahoma, sans-serif;
+	font-weight: 600;
+	color: #337ab7;
+}
+
+.panel-heading {
+	background-color: grey;
+}
+
+.panel-title {
+	font-family: 'Nono Sans', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+}
+
+.learn-more {
+	padding-left: 15px;
+	float: left;
+}
+.modal-button {
+	float: right;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#cv {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Contact Styles */
+
+.contact .glyphicon {
+	color: #337ab7;
+}
+#map {
+	height: 225px;
+	width: 300px;
+}
+
+#footer {
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:60px;
+   width:100%;
+   background:#000;
+}
+
+.twitter {
+	float: right;
+}
+
+section {
+	width: 100%;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
